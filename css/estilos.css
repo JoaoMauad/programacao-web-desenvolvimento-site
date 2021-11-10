@@ -1,4 +1,120 @@
-.div-filmes{
+/*
+Cabeçalho e elementos 
+*/
+.div-cabecalho{
     width: 100%;
-    height: 100%;
+    height: 50px;
+    background-color: green;
 }
+
+.div-cabecalho p{
+    text-align: center;
+    padding-top: 10px;
+    width: 100%;
+    height: 30px;
+    font-family: 'Times New Roman';
+    font-size: x-large;
+}
+
+/*
+Menu e elementos 
+*/
+.div-menu{
+    width: 100%;
+    height: 150px;
+    background-color: blue;
+}
+
+.div-menu table{
+    height: 100%;
+    width: 100%;
+}
+
+.div-menu table tr td img{
+    height: 100%;
+    width: 100%;
+}
+
+.div-menu table tr td button{
+    width: 250px;
+    font-size: 35px;
+    margin: auto;
+    float: left
+}
+
+/*
+Imagem e elementos 
+*/
+.div-imagem-fundo{
+    width: 100%;
+    height: 750px;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.div-produtos{
+    width: 100%;
+    height: 745px;
+    background-color: rgb(89, 89, 223);
+}
+
+.div-card-produtos{
+    width: 150px;
+    height: 200px;
+    float: left;
+    border-radius: 10px;
+}
+
+.div-card-produtos-img{
+
+}
+
+.div-card-produtos-descr{
+
+}
+
+.div-video{
+    width: 100%;
+    height: 815px;
+    background-color: rgb(151, 115, 47);
+}
+
+.div-divisa{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(236, 60, 60);
+}
+
+.div-depoimentos{
+    width: 100%;
+    height: 345px;
+    background-color: rgb(27, 216, 27);
+}
+
+.div-contato{
+    width: 100%;
+    height: 380px;
+    background-color: rgb(224, 79, 127);
+}
+
+.div-rodape{
+    width: 100%;
+    height: 140px;
+    background-color: rgb(29, 70, 2);
+}
+
+/*
+Elementos gerais
+*/
+
+.botao{
+    text-align: center;
+    background-color: green;
+    border-radius: 10px;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
