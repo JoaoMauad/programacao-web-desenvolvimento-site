@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+}
+
 /*
 Cabeçalho e elementos 
 */
@@ -12,7 +16,7 @@ Cabeçalho e elementos
     padding-top: 10px;
     width: 100%;
     height: 30px;
-    font-family: 'Times New Roman';
+    font-family:'Lucida Grande';
     font-size: x-large;
 }
 
@@ -22,7 +26,28 @@ Menu e elementos
 .div-menu{
     width: 100%;
     height: 150px;
-    background-color: blue;
+    background-color: white;
+}
+
+.div-menu-logo{
+    height: 100%;
+    width: 100%;
+}
+
+.icones{
+    height: 35px;
+    width: 35px;
+}
+
+.botao-icone{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    background-color: white;
+    border-color: white;
+    border-radius: 20px;
+    align-items: center;
+    font-family: 'Times New Roman';
 }
 
 .div-menu table{
@@ -30,28 +55,39 @@ Menu e elementos
     width: 100%;
 }
 
-.div-menu table tr td img{
-    height: 100%;
-    width: 100%;
+.botao-key{
+    width: 250px;
+    margin: auto;
 }
 
-.div-menu table tr td button{
-    width: 250px;
-    font-size: 35px;
-    margin: auto;
-    float: left
+.div-centraliza-botoes{
+    display: inline-block;
 }
+
 
 /*
 Imagem e elementos 
 */
 .div-imagem-fundo{
     width: 100%;
-    height: 750px;
+    height: 600px;
     background-color: white;
-    align-items: center;
-    text-align: center;
 }
+
+.p-descricao{
+    width: 90%;
+    text-align: justify;
+    align-items: center;
+    font-size: xx-large;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.div-imagem-fundo button{
+    font-size: xx-large;
+}
+
+
 
 .div-produtos{
     width: 100%;
@@ -111,7 +147,8 @@ Elementos gerais
 .botao{
     text-align: center;
     background-color: green;
-    border-radius: 10px;
+    border-radius: 20px;
+    font-family: 'Times New Roman';
     color: black;
     padding-top: 5px;
     padding-bottom: 5px;
