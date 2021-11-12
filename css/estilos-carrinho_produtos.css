@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+    background-color: rgb(0, 255, 106);
+}
+
+.botao{
+    text-align: center;
+    background-color: black;
+    border-radius: 20px;
+    font-family: 'Times New Roman';
+    color: rgb(0, 255, 106);
+    font-size: xx-large;
+    border-radius: 20px;
+    margin-top: 3%;
+}
+
+.botao:hover{
+    color: black;
+    background-color: #D7F9F1;
+}
+
+.div-tabela-produtos{
+    margin-left: 35%;
+    margin-top: 2%;
+
+}
+
+.imagem-logo{
+    margin-top: 5%;
+}
+
+.imagem-produtos{
+    width: 100px;
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
