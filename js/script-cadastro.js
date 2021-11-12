@@ -12,7 +12,9 @@ if (produto == "[]"){
 
 
 function cadastro_confirma() {
-    bool = true;
+    bool_1 = true;
+    bool_e = true;
+    bool_s = true;
     controle = [];
 
     var nome = document.getElementById("nome").value;
@@ -32,14 +34,22 @@ function cadastro_confirma() {
     var cep = document.getElementById("cep").value;
     controle.push(cep);
 
+    if (controle[1] != controle[2]) {
+        bool_e = false;
+    }
+
+    if (controle[4] != controle[5]) {
+        bool_s = false;
+    }
+
     for (var i=0; i<controle.length; i++) {
         if (controle[i] == '') {
-            bool = false;
+            bool_1 = false;
         }
     }
 
-    if (bool == false) {
-        alert("Erro - existem campos que não foram preenchidos");
+    if ((bool_1 == false)||(bool_e == false)||(bool_s == false)) {
+        alert("Erro - existem campos que não foram preenchidos \n\n Não se esqueça que o campo confirme e-mail precisa ser igual ao campo e-mail e confirme senha igual ao senha");
     }
     else {
         alert("Cadadstro realizado com sucesso");
