@@ -1,0 +1,162 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+        <script text="javascript" src="js/script.js"></script>
+
+    </head>
+
+    <body>
+
+        <div class="div-cabecalho"> 
+            <p> Viva a vida pisando nas nuvens </p> 
+        </div>
+
+        <div class="div-menu" id="menu"> 
+            <table>
+                <tr>
+                    <td style="width:3%;"></td>
+
+                    <td style="width:15%;"> 
+                        <img class ="div-menu-logo" src="img/logo.jpg"/> 
+                    </td>
+
+                    <td style="width:9%;"></td>
+
+                    <td style="width:40px;"> 
+                        <div style="text-align:center;">
+                            <div class="div-centraliza-botoes">
+                                <button class="botao-key botao" style="font-size: 20px;" id="hotProdutos" onclick=Produtos()> Produtos </button>
+                            </div>
+    
+                            <div class="div-centraliza-botoes">
+                                <button class="botao-key botao" style="font-size: 20px;" id="hotVideo" onclick=Video()> Apresentação da loja </button>
+                            </div>
+    
+                            <div class="div-centraliza-botoes">
+                                <button class="botao-key botao" style="font-size: 20px;" id="hotContatos" onclick=Contato()> Contatos e redes sociais </button>
+                            </div>
+                        </div>
+                    </td>
+
+                    <td style="width:9%;"> </td>
+
+                    <td style="width:15%;">
+                        <div style="text-align:center;">
+                            <div class="div-centraliza-botoes">
+                                <button class="botao-icone" onclick="location.href='pags/login.html'"> 
+                                    <img class="icones" src="img/icone-login.png"/> 
+                                </button>
+                            
+                            </div>
+    
+                            <div class="div-centraliza-botoes">
+                                <button class="botao-icone" id="lupa"> 
+                                    <img class="icones" src="img/icone-lupa.png"/> 
+                                </button>
+                            </div>
+    
+                            <div class="div-centraliza-botoes">
+                                <button class="botao-icone" onclick="location.href='pags/carrinho_produtos.html'"> 
+                                    <img class="icones" src="img/icone-carrinho.png"/> 
+                                </button>
+                            </div>
+                        </div>
+                    </td>
+                    <td style="width:3%;"> </td>
+                </tr>
+
+
+            </table>
+
+        </div>
+
+        <div class="div-imagem-fundo">
+            <table>
+                <tr>
+                    <td style="width:60%;">
+                        <p class="p-descricao">A Uboot começou com um sonho simples, dar ao mundo a oportunidade de se sentir bem com um belo tênis, confortável e estiloso, 
+                            acessível e prático. Muitos pais e mães se sentem tristes por não poder dar ao seu filho (a)  um belo par de chuteiras, sapatilhas
+                            , sandálias... Estamos aqui para construir essa oportunidade com o cliente, dando a ele a chance de ver sua criança sorrindo, ou talvez, realizar
+                            um antigo sonho e finalmente poder ter aquele boot que te leve as nuvens.
+                        </p> 
+                    </td>
+                    <td style="width:40%;"> 
+                        <div style="text-align: center; margin-top: 10%;">
+                            <button class="botao" onclick="location.href='pags/cadastro.html'"> Cadastre-se </button>
+                        </div>
+                    </td>
+                </tr>
+            </table> 
+        </div>
+
+
+        <div class="div-produtos" id="produtos"> 
+            <h1 style="text-align: center;">Mais vendidos</h1> <br>
+            <div style="text-align: center;" id="div-produto-mais-vendidos">
+            </div>
+            <div style="text-align: center;">
+                <button style="font-size: x-large;" class="botao" onclick="location.href='pags/mais_produtos.html'"> Mais produtos</button>
+            </div>
+            
+        </div>
+
+        
+        <br>
+
+        <div class="div-video" id="video">
+            <br>
+            <h3> Vídeo promocional Uboot </h3> 
+            <br> 
+
+            <iframe width="1019" height="573" src="https://www.youtube.com/embed/AkTpRjDjWXM" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="div-depoimentos"> 
+            <table width=100%>
+                <tr>
+                    <td style="font-size:large; color: rgb(0, 255, 106);" width=50%>
+                        <h3> Perguntas frequentes </h3> <br>
+                         Como posso trocar meu tênis? <br>
+                        R: Envie um e-mail para a empresa com os dados da compra que entraremos em <br>
+                        contato com detalhes para troca.<br><br>
+                         Eu moro em Curitiba, posso retirar o produto da loja? <br>
+                        R: Não trabalhamos com loja física, os termos de entrega serão definidos pelo site. <br><br>
+                         Quando chegam novos lançamentos? <br>
+                        R: Normalmente recebemos peças internacionais 10 dias após o lançamento e 3 <br>
+                        dias para produtos nacionais. <br><br>
+                    </td>
+
+                    <td style="font-size: large; color: rgb(0, 255, 106);">
+                        <h3> Faça sua pergunta </h3>
+                        <textarea style="resize: none;" name="" id="pergunta" placeholder="Digite aqui" cols="70" rows="12"></textarea> <br><br>
+                        <button class="botao" id="depoimentos-botao" onclick=depoimentos_botao()> Enviar pergunta</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="div-contato" id="contato"> <br>
+            Endereço: Rua Ricardo Marchado Nunhes, 1568, Centro, Curitiba <br><br>
+            Telefone: (41) 99898-6565  /  
+            E-mail: Uboot.contato@gmail.com
+        </div>
+
+        <div class="div-rodape">
+            <br>
+            <table width=100%>
+                <tr>
+                    <td style=text-align:right> <img class="imagem" src="img/facebook.png"> </td>
+    
+                    <td style=text-align:center> <img class="imagem" src="img/instagram.png"> </td>
+    
+                    <td style=text-align:left> <img class="imagem" src="img/twitter.png"> </td>
+                </tr>
+            </table>
+        </div>
+            
+    </body>
+
+</html>

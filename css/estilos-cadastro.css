@@ -1,0 +1,18 @@
+body {
+    margin: 0px;
+    background-color: rgb(0, 255, 106);
+    text-align: center;
+    align-items: center;
+}
+
+.botao {
+    background-color: black;
+    color: rgb(0, 255, 106);
+    border-radius: 20px;
+    font-size: x-large;
+}
+
+.botao:hover{
+    color: black;
+    background-color: #D7F9F1;
+}
