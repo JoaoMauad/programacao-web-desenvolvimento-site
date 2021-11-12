@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/estilos-cadastro.css">
+        <script type="text/javascript" src="../js/script-cadastro.js"></script>
+    </head>
+
+    <body>
+
+        <div style="margin-left: 10px; margin-top: 10px;">
+            <h1> Preencha o formulário a seguir com suas informações</h1>
+            <br>
+            <img src="../img/logo.jpg">
+
+            <table width="auto" style="margin-left: 37%; margin-top: 3%;">
+                <tr style="font-size: x-large;">
+                    <td> Nome:</td>
+                    <td>
+                        <input type="text" id="nome" size="25" placeholder="Nome">
+                    </td>
+                </tr>
+
+                <tr style="font-size: x-large;">
+                    <td> E-mail: </td>
+                    <td>
+                        <input type="text" id="email" size="25" placeholder="E-mail">
+                    </td>
+                </tr>
+
+                <tr style="font-size: x-large;">
+                    <td> Confirme seu e-mail:</td>
+                    <td>
+                        <input type="text" id="c_email" size="25" placeholder="Confirme seu e-mail">
+                    </td>
+                </tr>
+
+                <tr style="font-size: x-large;">
+                    <td> Usuário: </td>
+                    <td>
+                        <input type="text" id="usuario" size="25" placeholder="Usuário">
+                    </td>
+                </tr>
+
+                <tr style="font-size: x-large;">
+                    <td> Senha: </td>
+                    <td>
+                        <input type="password" id="senha" size="25" placeholder="Senha">
+                    </td>
+                </tr>
+
+                <tr style="font-size: x-large;">
+                    <td> Confirme sua senha: </td>
+                    <td>
+                        <input type="password" id="c_senha" size="25" placeholder="Confirme a senha">
+                    </td>
+                </tr>
+
+                <tr style="font-size: x-large;">
+                    <td> CPF: </td>
+                    <td>
+                        <input type="text" id="cpf" size="25" placeholder="CPF">
+                    </td>
+                </tr>
+
+                <tr style="font-size: x-large;">
+                    <td> CEP: </td>
+                    <td>
+                        <input type="text" id="cep" size="25" placeholder="CEP">
+                    </td>
+                </tr>
+
+            </table>
+
+            <br><br><br> <button class="botao" id="cadastro_confirma" onclick=cadastro_confirma()> Confimar cadastro</button>
+
+        </div>
+    </body>
+</html>
